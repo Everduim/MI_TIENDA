@@ -1,0 +1,43 @@
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo-listas{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    
+}
+
+.listas{
+ line-height: 1.5;
+ font-size: medium;
+ display: inline-block;
+ justify-content:space-between;
+ margin-right: 50px;
+ 
+
+
+}
+
+.imagen-icono-f,.imagen-icono{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 3%;
+
+}
+
+.divisor{
+    height: 1px;
+    background-color:#b5aeaef6;
+    width:100%;
+    margin:50px 0 50px 0
+}

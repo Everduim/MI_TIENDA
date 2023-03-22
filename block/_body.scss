@@ -1,0 +1,39 @@
+
+
+.galeria{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+    
+}
+
+.galeria-fila-1{
+    
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin-left: 50px;
+        
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+                
+        
+}
+
+
+.carta{
+    height: 500px;
+    width: 320px;
+    padding: 10px;;
+
+}
+.card{
+    height: 80%;
+    width: 100%;
+    padding-right: 0;
+
+}

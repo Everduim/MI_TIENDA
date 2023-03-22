@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.galeria-fila-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.carta {
+  height: 500px;
+  width: 320px;
+  padding: 10px;
+}
+
+.card {
+  height: 80%;
+  width: 100%;
+  padding-right: 0;
+}
+
+.cupon-contacto {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.divisor {
+  height: 1px;
+  background-color: rgba(181, 174, 174, 0.9647058824);
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+
+.divisor-email {
+  height: 1px;
+  background-color: black;
+  width: 40%;
+  margin: 5px 30% 5px 30%;
+  margin-top: 25px;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.titulo-listas {
+  font-weight: bolder;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.listas {
+  line-height: 1.5;
+  font-size: medium;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.imagen-icono-f, .imagen-icono {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3%;
+}
+
+.divisor {
+  height: 1px;
+  background-color: rgba(181, 174, 174, 0.9647058824);
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+
+.bar__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.menu__fijo {
+  position: fixed;
+  z-index: 1;
+}
+
+.bar__nav--horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+  gap: 5px;
+}
+
+.mi-tienda {
+  font-size: 60px;
+  text-align: center;
+}
+
+.bar__nav--horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.bar__nav--inferior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+  word-spacing: 0.6em;
+}
+
+.numero-comilla {
+  color: white;
+}
+
+.numero-verde {
+  color: aquamarine;
+}
+
+.divisor__header {
+  height: 2px;
+  background-color: #0a0000;
+  width: 100%;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+span {
+  color: rgb(217, 102, 8);
+}
+
+.color-mujer-ropa-camisetas {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
